@@ -47,7 +47,7 @@ final productController = Get.put(ProductController());
                           crossAxisCount: 2,
                           mainAxisSpacing: 4,
                           crossAxisSpacing: 4,
-                          //childAspectRatio: 1,
+                          childAspectRatio: .55,
                         ),
                         itemCount: productController.productList.length,
                         itemBuilder: (context,index){
